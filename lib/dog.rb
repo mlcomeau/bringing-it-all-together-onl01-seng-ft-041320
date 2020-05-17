@@ -1,10 +1,10 @@
 class Dog
   attr_accessor :name, :breed, :id
 
-  def initialize(id=nil, name:, breed:)
+  def initialize(name:, breed:)
     @name = name
     @breed = breed
-    @id = id
+    @id = nil
   end
 
   def self.create_table
